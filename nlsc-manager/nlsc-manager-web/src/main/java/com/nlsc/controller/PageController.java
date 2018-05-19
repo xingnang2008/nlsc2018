@@ -20,13 +20,14 @@ public class PageController {
 	 */
 	@RequestMapping("/")
 	public String showIndex() {
-		return "index";
+		return "login";
 	}
-	
 	@RequestMapping("/admin")
 	public String showAdminIndex() {
 		return "index";
 	}
+	
+
 	/**
 	 * 展示其他页面
 	 * <p>Title: showpage</p>
@@ -39,21 +40,5 @@ public class PageController {
 		return page;
 	}
 
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String login(String userName, String passwd, Model model) {
-        Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken(userName, passwd);
-        try {
-            subject.login(token);
-        } catch (UnknownAccountException e) {
-            e.printStackTrace();
-            model.addAttribute("userName", "用户名错误！");
-            return "login";
-        } catch (IncorrectCredentialsException e) {
-            e.printStackTrace();
-            model.addAttribute("passwd", "密码错误");
-            return "login";
-        }
-        return "index";
-    }
+    
 }

@@ -44,8 +44,7 @@
         <!--URL的拦截-->
         <property name="filterChainDefinitions" >
             <value>
-            	/admin = authc
-                /share = authc
+            	/admin = authcBasic
                 /logout = logout
             </value>
         </property>

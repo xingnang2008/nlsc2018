@@ -3,3 +3,4 @@ com\nlsc\controller\ItemController.class
 com\nlsc\controller\PageController.class
 com\nlsc\controller\ItemParamController.class
 com\nlsc\controller\ItemCatController.class
+com\nlsc\controller\LoginController.class
