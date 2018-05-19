@@ -1,0 +1,11 @@
+com\nlsc\mapper\TbOrderMapper.class
+com\nlsc\mapper\TbItemDescMapper.class
+com\nlsc\mapper\TbContentMapper.class
+com\nlsc\mapper\TbItemCatMapper.class
+com\nlsc\mapper\TbOrderItemMapper.class
+com\nlsc\mapper\TbContentCategoryMapper.class
+com\nlsc\mapper\TbItemParamItemMapper.class
+com\nlsc\mapper\TbUserMapper.class
+com\nlsc\mapper\TbItemParamMapper.class
+com\nlsc\mapper\TbItemMapper.class
+com\nlsc\mapper\TbOrderShippingMapper.class

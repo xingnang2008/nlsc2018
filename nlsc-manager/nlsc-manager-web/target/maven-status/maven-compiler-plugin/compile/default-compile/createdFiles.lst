@@ -1,0 +1,5 @@
+com\nlsc\controller\PictureController.class
+com\nlsc\controller\ItemController.class
+com\nlsc\controller\PageController.class
+com\nlsc\controller\ItemParamController.class
+com\nlsc\controller\ItemCatController.class
